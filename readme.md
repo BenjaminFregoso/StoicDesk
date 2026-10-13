@@ -74,22 +74,12 @@ Ejecuta en modo debug con F5.
 ## Contribuciones
 Las contribuciones son bienvenidas. Si encuentras un bug o tienes una idea para mejorar el widget, abre un issue o envía un pull request.
 
-Haz un fork del proyecto.
-
-Crea una rama para tu feature: git checkout -b feature/nueva-funcionalidad.
-
-Haz commit de tus cambios: git commit -m 'Añade nueva funcionalidad'.
-
-Sube la rama: git push origin feature/nueva-funcionalidad.
-
-Abre un Pull Request.
-
 ## Licencia
 Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
 ## Agradecimientos
-Inspirado en los principios del estoicismo y en filósofos como Marco Aurelio, Epicteto, Séneca, Zenón de Citio y Crisipo de Solos.
+Inspirado en los principios del estoicismo.
 
 Construido con WPF y .NET.
 
-<p align="center"> Hecho con 🖤 y monster energy. </p> ```
+<p align="center"> Hecho con 🖤 y monster energy. </p> 
