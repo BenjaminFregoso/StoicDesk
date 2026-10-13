@@ -40,9 +40,12 @@ La aplicación consume un endpoint HTTP que devuelve un JSON con la siguiente es
     "descripcion": "Frases para inspirar"
   }
 }
+```
 
 La URL de la API se configura en QuoteService.cs:
+```csharp
 private const string ApiUrl = "https://tudominio.com/api/";
+```
 
 ## Requisitos
 Windows 10 o Windows 11
@@ -50,3 +53,43 @@ Windows 10 o Windows 11
 Visual Studio 2022 con la carga de trabajo .NET desktop development
 
 .NET 8.0 SDK o superior
+
+## Compilar y ejecutar
+Clona el repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/StoicDesk.git
+cd StoicDesk
+```
+
+Abre la solución en Visual Studio:
+```bash
+start StoicDesk.sln
+```
+
+Configura la URL de tu API en QuoteService.cs.
+
+Ejecuta en modo debug con F5.
+
+## Contribuciones
+Las contribuciones son bienvenidas. Si encuentras un bug o tienes una idea para mejorar el widget, abre un issue o envía un pull request.
+
+Haz un fork del proyecto.
+
+Crea una rama para tu feature: git checkout -b feature/nueva-funcionalidad.
+
+Haz commit de tus cambios: git commit -m 'Añade nueva funcionalidad'.
+
+Sube la rama: git push origin feature/nueva-funcionalidad.
+
+Abre un Pull Request.
+
+## Licencia
+Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+## Agradecimientos
+Inspirado en los principios del estoicismo y en filósofos como Marco Aurelio, Epicteto, Séneca, Zenón de Citio y Crisipo de Solos.
+
+Construido con WPF y .NET.
+
+<p align="center"> Hecho con 🖤 y monster energy. </p> ```
