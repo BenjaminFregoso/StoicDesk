@@ -1,0 +1,33 @@
+﻿<Window x:Class="StoicDesk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="StoicDesk"
+        SizeToContent="WidthAndHeight"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="#FAF6EB"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize"
+        Topmost="False"
+        WindowStartupLocation="Manual"
+        Loaded="Window_Loaded">
+
+    <Grid Margin="10"
+          Background="Transparent"
+          Cursor="Hand"
+          MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock x:Name="QuoteText"
+                       Foreground="#2E2A24"
+                       FontFamily="Times New Roman"
+                       FontSize="32"
+                       FontStyle="Normal"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       LineHeight="42">
+                <Run x:Name="QuoteRun" Text="Cargando frase..."/>
+                <Run x:Name="AuthorRun" Text="" Foreground="#2E2A24"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
