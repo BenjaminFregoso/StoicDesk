@@ -15,11 +15,6 @@ Un widget de escritorio para Windows que muestra frases de filósofos estoicos d
 -  **Inicio automático**: puede configurarse para arrancar al iniciar sesión en Windows.
 -  **Ejecutable único**: se publica como un `.exe` autocontenido, sin necesidad de instalar .NET en el equipo destino.
 
-##  Captura
-
-![Captura de StoicDesk](screenshots/stoicdesk.png)
-> Reemplaza esta ruta por una imagen real de tu widget en funcionamiento.
-
 ##  Arquitectura
 
 El proyecto está dividido en tres partes bien separadas:
